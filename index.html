@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="온유 테라피 - 여성 고객을 위한 아로마 및 스웨디시 마사지 안내. 서울 지역 운영, 서울 외 지역 출장비 별도 안내.">
+<title>온유 테라피 | 여성 전용 마사지 안내</title>
+<style>
+:root{--ink:#403a33;--muted:#7e766c;--cream:#f8f5ef;--sand:#e8dfd2;--accent:#88735d;--white:#fff;--line:#e7e0d7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;line-height:1.7}a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(248,245,239,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:20px;letter-spacing:.12em;font-weight:650}.navlinks{display:flex;gap:22px;font-size:13px;color:var(--muted)}.navlinks a:hover{color:var(--accent)}
+.hero{padding:76px 0 68px}.hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:44px}.eyebrow{font-size:11px;letter-spacing:.2em;color:var(--accent);font-weight:700}.hero h1{font-size:clamp(38px,5vw,62px);font-weight:500;line-height:1.2;letter-spacing:-.055em;margin:18px 0}.hero p{color:var(--muted);max-width:430px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border-radius:3px;border:1px solid var(--accent);font-size:14px;font-weight:600}.btn.primary{background:var(--accent);color:white}.btn.secondary{color:var(--accent);background:transparent}.hero-photo{min-height:390px;border-radius:180px 180px 4px 4px;background:linear-gradient(0deg,rgba(45,36,27,.18),rgba(45,36,27,0)),url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85') center/cover;box-shadow:0 18px 50px #5c4c3915}
+section{padding:76px 0;border-top:1px solid var(--line)}.section-head{max-width:620px;margin-bottom:32px}.section-head .eyebrow{margin-bottom:10px}.section-head h2{font-size:clamp(27px,3.5vw,40px);font-weight:500;letter-spacing:-.04em;line-height:1.3;margin:0 0 12px}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:#fffdf9;border:1px solid var(--line);padding:28px;min-height:200px}.card .num{font-size:12px;letter-spacing:.14em;color:var(--accent)}.card h3{font-size:23px;font-weight:500;margin:12px 0 8px}.card p{color:var(--muted);font-size:14px;margin:0}.note{margin-top:18px;padding:16px 18px;background:#eee7dc;color:#6e6254;font-size:13px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}.about-panel{background:var(--sand);padding:36px}.about-panel p{margin:0;color:#655b50}.values{display:grid;gap:14px}.value{padding:18px 0;border-bottom:1px solid var(--line)}.value strong{display:block;font-weight:600;margin-bottom:4px}.value span{color:var(--muted);font-size:14px}
+.review-box{background:#fffdf9;border:1px solid var(--line);padding:30px;text-align:center}.review-box p{color:var(--muted);margin:8px auto 0;max-width:540px;font-size:14px}
+.booking{background:#e9e0d4}.booking-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}.booking h2{font-size:clamp(28px,4vw,42px);font-weight:500;line-height:1.25;margin:10px 0}.booking p{color:#6d6256}.booking-card{background:#fbf9f5;padding:28px;border:1px solid #ddd1c2}.booking-card ul{padding-left:18px;color:#6d6256;font-size:14px}.booking-card .btn{width:100%;margin-top:12px}
+footer{padding:30px 0 40px;color:var(--muted);font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.mobile-cta{display:none}
+@media(max-width:760px){.wrap{width:min(100% - 32px,600px)}.nav{height:62px}.navlinks{gap:12px;font-size:12px}.navlinks a:nth-child(2),.navlinks a:nth-child(3){display:none}.hero{padding:45px 0 48px}.hero-grid,.about-grid,.booking-inner{grid-template-columns:1fr;gap:26px}.hero-photo{min-height:280px;order:-1;border-radius:120px 120px 4px 4px}.hero h1{font-size:42px}.cards{grid-template-columns:1fr}section{padding:55px 0}.about-panel{padding:26px}.booking-card{padding:22px}.mobile-cta{display:block;position:fixed;bottom:0;left:0;right:0;padding:10px 16px;background:#f8f5eff2;border-top:1px solid var(--line);z-index:6}.mobile-cta .btn{width:100%}footer{padding-bottom:84px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">온유 테라피</a>
+  <nav class="navlinks" aria-label="주요 메뉴">
+    <a href="#about">소개</a><a href="#programs">프로그램</a><a href="#reviews">후기</a><a href="#booking">예약하기</a>
+  </nav>
+</div></header>
+<main>
+<section class="hero" id="home" style="border-top:0"><div class="wrap hero-grid">
+  <div>
+    <div class="eyebrow">WOMEN ONLY · SEOUL</div>
+    <h1>일상에 쉼을 더하는<br>나만의 시간</h1>
+    <p>온유 테라피는 여성 고객을 위한 아로마 및 스웨디시 마사지 정보를 안내합니다. 차분한 분위기 속에서 나에게 집중하는 시간을 만나보세요.</p>
+    <div class="actions"><a class="btn primary booking-link" href="#booking">예약 신청하기</a><a class="btn secondary" href="#programs">프로그램 보기</a></div>
+  </div>
+  <div class="hero-photo" role="img" aria-label="차분한 스파 공간 이미지"></div>
+</div></section>
+<section id="about"><div class="wrap about-grid">
+  <div class="section-head"><div class="eyebrow">ABOUT ONYU</div><h2>편안함과 세심함을<br>중요하게 생각합니다</h2><p>온유 테라피의 안내 페이지입니다. 서비스와 예약 관련 사항을 확인한 후 편하게 문의해 주세요.</p></div>
+  <div class="about-panel"><p><strong>여성 고객 전용 안내</strong><br>서울 지역을 중심으로 안내하며, 서울 외 지역은 거리 및 일정에 따라 출장비가 발생할 수 있습니다. 정확한 가능 지역과 비용은 예약 신청 후 개별 안내드립니다.</p></div>
+</div></section>
+<section id="programs"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">PROGRAMS</div><h2>나에게 맞는 케어를 살펴보세요</h2><p>프로그램별 상세 내용과 이용 금액은 예약 문의 시 안내해 드립니다.</p></div>
+  <div class="cards">
+    <article class="card"><div class="num">01 / AROMA</div><h3>아로마 마사지</h3><p>아로마 오일을 활용한 부드럽고 편안한 케어를 안내합니다. 피부 민감도나 향 선호도 등 참고할 사항이 있다면 예약 시 알려주세요.</p></article>
+    <article class="card"><div class="num">02 / SWEDISH</div><h3>스웨디시 마사지</h3><p>긴장을 풀고 휴식을 돕는 부드러운 마사지 프로그램입니다. 세부 구성과 소요 시간은 예약 문의를 통해 확인하실 수 있습니다.</p></article>
+  </div>
+  <div class="note">※ 홈페이지에는 가격을 공개하지 않습니다. 프로그램 구성, 소요 시간, 예약 가능 여부 및 비용은 신청 내용을 확인한 뒤 안내드립니다.</div>
+</div></section>
+<section id="reviews"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">REVIEWS</div><h2>이용 후기</h2><p>실제 이용 후기를 확인할 수 있도록 준비 중입니다.</p></div>
+  <div class="review-box"><strong>정직한 실제 후기만 소개합니다</strong><p>후기 게시 전 고객의 동의를 확인하고, 이름·연락처 등 개인을 식별할 수 있는 정보는 공개하지 않습니다. 실제 후기가 준비되면 이 영역에 추가해 주세요.</p></div>
+</div></section>
+<section class="booking" id="booking"><div class="wrap booking-inner">
+  <div><div class="eyebrow">BOOKING & CONTACT</div><h2>예약 및 문의</h2><p>희망 프로그램과 날짜, 지역을 남겨주시면 확인 후 안내드립니다. 예약 신청은 확정이 아니며, 일정 확인 후 별도로 확정 안내를 드립니다.</p><a class="btn primary booking-link" href="https://forms.gle/1MG5pnR7i7gSE7YA8" target="_blank" rel="noopener">구글폼으로 예약 신청</a></div>
+  <div class="booking-card"><strong>신청 전에 확인해 주세요</strong><ul><li>여성 고객 전용 서비스입니다.</li><li>서울 외 지역은 출장비가 발생할 수 있습니다.</li><li>프로그램 가격 및 소요 시간은 개별 안내됩니다.</li><li>신청서 제출 후 예약 확정 안내를 기다려 주세요.</li></ul></div>
+</div></section>
+</main>
+<footer><div class="wrap footer-row"><span>© 온유 테라피. All rights reserved.</span><span>서울 지역 안내 · 서울 외 지역 출장비 별도</span></div></footer>
+<div class="mobile-cta"><a class="btn primary booking-link" href="#booking">예약 신청하기</a></div>
+<script>
+/* 예약용 구글폼을 만든 뒤 아래 URL을 실제 주소로 바꾸세요. */
+const GOOGLE_FORM_URL = "https://forms.gle/1MG5pnR7i7gSE7YA8";
+document.querySelectorAll(".booking-link").forEach(link => {
+  if (GOOGLE_FORM_URL && GOOGLE_FORM_URL !== "https://forms.google.com/") {
+    link.href = GOOGLE_FORM_URL; link.target = "_blank"; link.rel = "noopener";
+  } else {
+    link.addEventListener("click", function(e) {
+      if (this.getAttribute("href") === "#booking") return;
+      e.preventDefault();
+      alert("예약용 구글폼을 만든 뒤 index.html의 GOOGLE_FORM_URL을 실제 폼 주소로 바꿔 주세요. 자세한 안내는 README.txt를 확인해 주세요.");
+    });
+  }
+});
+</script>
+</body>
+</html>
